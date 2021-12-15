@@ -12,7 +12,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="app">{{ message }}</h1>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <img v-bind:src="img" alt="">
+    </div>
 
     <script src="js/script.js"></script>
 </body>

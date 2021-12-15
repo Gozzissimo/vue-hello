@@ -12,7 +12,8 @@ var app = new Vue(
     {
         el: '#app',
         data: {
-            message: 'Questo è il mio primo messaggio con Vue'
+            message: 'Questo è il mio primo messaggio con Vue',
+            img: 'https://c.tenor.com/Jb3EbO71JKEAAAAC/ron-swanson-parks-and-rec.gif'
         }
     }
 );
