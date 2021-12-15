@@ -17,11 +17,12 @@
         <img v-bind:src="img" alt=""> -->
         <input v-model="message_2">
         <img v-bind:src="img_2" alt="">
-        <div>Quante ne vorresti acquistare ma non puoi perchè non ce ne sono disponibili?</div>
-        {{number}}
-        <div class="count">
+        <div>Quante ne vorresti acquistare?</div>
+        <span>{{message_2}} nel carrello - {{number}}</span>
+        <div class="red" v-if="number === 0">OUT OF STOCK</div>
+        <div>
+            <button @click="number += 1">Add to Cart</button>
         </div>
-            <button>Clicca per sognare in grande</button>
     </div>
 
     <script src="js/script.js"></script>
