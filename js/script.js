@@ -12,12 +12,8 @@ var app = new Vue(
     {
         el: '#app',
         data: {
-            // message: 'Questo è il mio primo messaggio con Vue',
-            // img: 'https://c.tenor.com/Jb3EbO71JKEAAAAC/ron-swanson-parks-and-rec.gif'
-            message_2: 'Bici da corsa costosa',
-            img_2: 'https://www.bmc-switzerland.com/media/catalog/product/cache/86a9a13297e2ff4b2d593e234876b106/r/o/roadmachine_01_one_gry_blk_wht.png',
-            number: 0,
-            color: 'red'
+            message: 'Questo è il mio primo messaggio con Vue',
+            img: 'https://c.tenor.com/Jb3EbO71JKEAAAAC/ron-swanson-parks-and-rec.gif'
         }
     }
 );
